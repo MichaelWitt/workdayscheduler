@@ -40,11 +40,13 @@ $(document).ready(function () {
     //     localStorage.setItem(time, value);
     // });
 
+    $('.saveBtn').on('click', function () {
+        var value = $(this).siblings('.description').val();
+        var time = $(this).parent().attr('id');
+        localStorage.setItem(time, value);
+    });
 
-
-
-
-    // 8: 04
+    $('#hour-9 .description').val(localStorage.getItem('hour-9'));
     // $("#hour-9 .description").val(localStorage.getItem("hour-9"));
 
 
