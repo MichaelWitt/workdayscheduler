@@ -32,7 +32,20 @@ $(document).ready(function () {
 
 
 
+    // $(".saveBtn").on("click", function () {
+    //     // get nearby values
+    //     var value = $(this).siblings(".description").val();
+    //     var time = $(this).parent().attr("id");
+    //     // save in localStorage
+    //     localStorage.setItem(time, value);
+    // });
 
+
+
+
+
+    // 8: 04
+    // $("#hour-9 .description").val(localStorage.getItem("hour-9"));
 
 
 
