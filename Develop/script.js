@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
     /*
-     Pseudocode
 
      center with green when time 9-5 and grey when not 9-5 and red when current hour
      When clicked, text entered into container is saved on local storage. Unllick to edit.
@@ -11,7 +10,7 @@ $(document).ready(function () {
      get the hour of block from timeframe block
      if block hour less than current hour
      add past class 
-     else if black hour = current hour 
+     else if block hour = current hour 
      add present class
      remove past class
      else if block hour greater than current hour
@@ -21,16 +20,29 @@ $(document).ready(function () {
 
      call function on pageload
      add to set interval to run every 5 minutes
-
-     on page load, load any save data from local storage
-     event listener clicking save button
-     which will save text area to local storage
-     set value of what we get from local storage to text area
-     write a loop or just paste all: $("#hour-9 .description").val(localStorage.getItem("hour-9"));
     
      */
 
+    var currentTime = moment().format('H');
+    console.log(currentTime)
 
+
+    // var contEl = $('#container')
+    // var contChildren = contEl.children('div')
+    // contChildren.each((x, v) => {
+    //     const elId = parseInt(v.id)
+    //     //console.log(elId)
+    //     if (currentTime > elId) {
+    //         console.log(elId)
+    //         $(`#${v.id}`).addClass('past')
+    //     }
+    //     if (currentTime === elId) {
+    //         $(`#${v.id}`).addClass('present')
+    //     }
+    //     if (currentTime < elId) {
+    //         $(`#${v.id}`).addClass('future')
+    //     }
+    // })
 
 
     $('.saveBtn').on('click', function () {
@@ -39,15 +51,16 @@ $(document).ready(function () {
         localStorage.setItem(time, value);
     });
 
-    $('#hour-9 .description').val(localStorage.getItem('hour-9'));
-    $('#hour-10 .description').val(localStorage.getItem('hour-10'));
-    $('#hour-11 .description').val(localStorage.getItem('hour-11'));
-    $('#hour-12 .description').val(localStorage.getItem('hour-12'));
-    $('#hour-13 .description').val(localStorage.getItem('hour-13'));
-    $('#hour-14 .description').val(localStorage.getItem('hour-14'));
-    $('#hour-15 .description').val(localStorage.getItem('hour-15'));
-    $('#hour-16 .description').val(localStorage.getItem('hour-16'));
-    $('#hour-17 .description').val(localStorage.getItem('hour-17'));
+
+    $('#09 .description').val(localStorage.getItem('09'));
+    $('#10 .description').val(localStorage.getItem('10'));
+    $('#11 .description').val(localStorage.getItem('11'));
+    $('#12 .description').val(localStorage.getItem('12'));
+    $('#13 .description').val(localStorage.getItem('13'));
+    $('#14 .description').val(localStorage.getItem('14'));
+    $('#15 .description').val(localStorage.getItem('15'));
+    $('#16 .description').val(localStorage.getItem('16'));
+    $('#17 .description').val(localStorage.getItem('17'));
 
 
 
