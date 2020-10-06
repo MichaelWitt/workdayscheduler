@@ -32,7 +32,7 @@ UNC Coding Bootcamp and Trilogy Education Services for the inspiration & code to
 
 Licensed under the MIT license.
 
-https://michaelwitt.github.io/codequiz/assets/LICENSE.txt
+https://michaelwitt.github.io/workdayscheduler/assets/LICENSE.txt
 
 ## Contributor Covenant Code of Conduct
 
