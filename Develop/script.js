@@ -2,9 +2,9 @@ $(document).ready(function () {
 
 
     var currentTime = moment().format('H');
-    // var currentDay = moment().format('MMMM Do YYYY, h:mm:ss a');
-    // console.log('currentDay:', currentDay)
+    var currentDate = moment().format('MMMM Do YYYY');
 
+    $('#currentDay').append(currentDate);
 
 
     var contEl = $('#container')
