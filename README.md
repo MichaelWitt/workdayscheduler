@@ -17,7 +17,7 @@ View the website at: https://michaelwitt.github.io/workdayscheduler
 View the refactory at: https://github.com/MichaelWitt/workdayscheduler
 
 Website Preview: ![alt text](https://michaelwitt.github.io/workdayscheduler/Assets/website.png)
-Demo: ![alt text](https://michaelwitt.github.io/workdayscheduler/assets/websitedemo.png)
+Demo: ![alt text](https://michaelwitt.github.io/workdayscheduler/Assets/websitedemo.png)
 
 ## Updates
 
