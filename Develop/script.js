@@ -27,22 +27,22 @@ $(document).ready(function () {
     console.log(currentTime)
 
 
-    // var contEl = $('#container')
-    // var contChildren = contEl.children('div')
-    // contChildren.each((x, v) => {
-    //     const elId = parseInt(v.id)
-    //     //console.log(elId)
-    //     if (currentTime > elId) {
-    //         console.log(elId)
-    //         $(`#${v.id}`).addClass('past')
-    //     }
-    //     if (currentTime === elId) {
-    //         $(`#${v.id}`).addClass('present')
-    //     }
-    //     if (currentTime < elId) {
-    //         $(`#${v.id}`).addClass('future')
-    //     }
-    // })
+    var contEl = $('#container')
+    var contChildren = contEl.children('div')
+    contChildren.each((x, v) => {
+        const elId = parseInt(v.id)
+        //console.log(elId)
+        if (currentTime > elId) {
+            console.log(elId)
+            $(`#${v.id}`).addClass('past')
+        }
+        if (currentTime === elId) {
+            $(`#${v.id}`).addClass('present')
+        }
+        if (currentTime < elId) {
+            $(`#${v.id}`).addClass('future')
+        }
+    })
 
 
     $('.saveBtn').on('click', function () {
