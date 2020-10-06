@@ -16,7 +16,7 @@ View the website at: https://michaelwitt.github.io/workdayscheduler
 
 View the refactory at: https://github.com/MichaelWitt/workdayscheduler
 
-Website Preview: ![alt text](https://michaelwitt.github.io/workdayscheduler/assets/website.png)
+Website Preview: ![alt text](https://michaelwitt.github.io/workdayscheduler/Assets/website.png)
 Demo: ![alt text](https://michaelwitt.github.io/workdayscheduler/assets/websitedemo.png)
 
 ## Updates
@@ -31,7 +31,7 @@ UNC Coding Bootcamp and Trilogy Education Services for the inspiration & code to
 
 Licensed under the MIT license.
 
-https://michaelwitt.github.io/workdayscheduler/assets/LICENSE.txt
+https://michaelwitt.github.io/workdayscheduler/Assets/LICENSE.txt
 
 ## Contributor Covenant Code of Conduct
 
