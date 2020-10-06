@@ -4,7 +4,7 @@ A smart and simple calendar app that lets you save events to better schedule you
 _Workday Scheduler._
 
 
-Hello! My name is Mike. I am a dreamer, designer, and developer. Welcome to the Workday Scheduler!
+Hello! My name is Mike. I am a developer, designer, and dreamer. Welcome to the Workday Scheduler!
 
 <!-- In this mission I created a code quiz that tests a users knowledge of JavaScript. I started this one from scratch, by writing the html that contained the frame for the quiz, creating the css, which stylized the website and formatted it with a beautiful and accessible layout, and finished by adding javascript, which brought the quiz to life; adding a timer, questions, answers, and more! I hope that you enjoy seeing the fruits of my labors, in the Code Quiz.   -->
 
@@ -16,9 +16,8 @@ View the website at: https://michaelwitt.github.io/workdayscheduler
 
 View the refactory at: https://github.com/MichaelWitt/workdayscheduler
 
-<!-- Website Preview: ![alt text](https://michaelwitt.github.io/codequiz/assets/images/codequiz.png)
-Quiz: ![alt text](https://michaelwitt.github.io/codequiz/assets/images/questions.png)
-Leaderboard: ![alt text](https://michaelwitt.github.io/codequiz/assets/images/leaderboard.png) -->
+Website Preview: ![alt text](https://michaelwitt.github.io/workdayscheduler/assets/website.png)
+Demo: ![alt text](https://michaelwitt.github.io/workdayscheduler/assets/websitedemo.png)
 
 ## Updates
 
